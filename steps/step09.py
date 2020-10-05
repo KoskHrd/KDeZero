@@ -25,7 +25,6 @@ class Variable:
 
 def as_array(x):
     if np.isscalar(x):
-        print(type(x))
         return np.array(x)
     return x
 
